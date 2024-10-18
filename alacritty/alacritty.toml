@@ -1,0 +1,11 @@
+[font]
+normal = {family = "Cozette", style = "Regular"}
+
+[colors.primary]
+background = "#181414"
+
+[window]
+padding = {x = 5, y = 5}
+dynamic_padding = true
+opacity = 0.8
+blur = true

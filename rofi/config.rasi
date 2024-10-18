@@ -1,0 +1,74 @@
+configuration {
+  font: "Cozette 8"; 
+}
+
+
+@theme "/usr/share/rofi/themes/gruvbox-light.rasi"
+
+window {
+  background-color: #181414;
+  border-color: #facc6b;
+  
+}
+
+* { 
+  background-color: #181414;
+}
+
+textbox {
+  text-color: #facc6b;
+}
+
+element-text {
+  text-color: inherit;
+}
+
+buttom {
+  text-color: #facc6b;
+}
+
+inputbar {
+  text-color: #facc6b;
+}
+
+case-indicator {
+  text-color: #facc6b;
+}
+
+entry {
+  text-color: #facc6b;
+}
+
+prompt {
+  text-color: #facc6b;
+}
+
+textbox-prompt-colon {
+  text-color: #facc6b;
+}
+
+
+element.normal.normal,
+element.normal.urgent,
+element.normal.active,
+element.alternate.normal,
+element.alternate.urgent,
+element.alternate.active,
+{
+  border: none;
+  padding: 0;
+  background-color: #181414;
+  text-color: #facc6b;
+}
+
+element.selected.normal,
+element.selected.urgent,
+element.selected.active
+{
+  background-color: #facc6b;
+  text-color: #181414;
+}
+
+scrollbar {
+   handle-width: 0;
+}
